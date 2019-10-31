@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+//TIME TO FINISH THE GAME!
+
 class Square extends React.Component {
     // Set constructor of Square to set state of null
     constructor(props) {
