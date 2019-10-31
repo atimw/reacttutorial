@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+// Set constructor of Square to set state of null
 class Square extends React.Component {
   constructor(props) {
     super(props);
@@ -9,6 +10,8 @@ class Square extends React.Component {
       value: null,
     };
   }
+
+  // render each square as a button which passes the state value on click
     render() {
       return (
         <button 
